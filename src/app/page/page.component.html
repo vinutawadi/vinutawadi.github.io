@@ -1,0 +1,38 @@
+<body >
+  <header> 
+  
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a routerLink=" /" class="navbar-brand">My Routing Angular2 App</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a routerLink="/home" >Home</a></li>
+          <li><a routerLink="/about">About</a></li>
+          <li><a routetLink="/contact">Contact</a></li>
+        </ul>
+      </div>
+      </nav>
+  </header> 
+  
+    
+    
+              <form class="form" #form="ngForm" (ngSubmit)="submit(form)">
+            <div class="container">
+              <h1> Login Form</h1>
+              <div>
+                <label for ="email">EMAIL</label>
+                <input type="email" class="form-control" id="email" name="email" required [(ngModel)]="form.email" #email="ngModel">
+               <div *ngIf="email.errors && (email.dirty || email.touched)" class="alert alert-danger"></div>
+                </div>
+            <div>
+               <label for ="password">PASSWORD</label>
+                <input type="password" class="form-control" id="password" name="password" required [(ngModel)]="form.password" #password="ngModel">
+                <div *ngIf="password.errors && (password.dirty || password.touched)" class="alert alert-danger"></div>
+                                </div>
+               <button type="submit"  class="btn btn-primary" [disabled]="email.invalid">submit</button>
+               
+                </div>
+                </form>
+
+  </body>

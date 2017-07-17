@@ -1,0 +1,31 @@
+body{
+    box-sizing: 0px;
+    margin: 0px;
+}
+
+
+.navbar-brand
+ {      font-size:20px;
+     margin-bottom:20px;
+    border-radius:50px;
+}
+.navbar-nav
+
+{
+color:red !important;
+}
+
+
+.container
+{
+    width:300px;
+
+  }
+
+
+
+
+
+
+
+
