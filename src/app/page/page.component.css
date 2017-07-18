@@ -1,0 +1,43 @@
+body{
+    box-sizing: 0px;
+    margin: 0px;
+}
+
+
+.navbar-brand
+ {      font-size:20px;
+     margin-bottom:20px;
+    border-radius:50px;
+}
+.navbar-nav
+
+{
+color:red !important;
+}
+
+
+.container
+{
+    width:300px;
+  
+
+  }
+.p
+{
+    margin-bottom: 8px;
+
+}
+.form-control
+{
+    margin-bottom:18px;
+}
+
+.form-control ng-untouched ng-pristine ng-invalid
+{
+    margin-bottom: 10px;
+}
+
+
+
+
+
