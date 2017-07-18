@@ -459,7 +459,7 @@ var PageService = (function () {
         this.http = http;
     }
     PageService.prototype.registration = function () {
-        return this.http.get("dist/assets/data/user-list.json")
+        return this.http.get("assets/data/user-list.json")
             .map(function (res) { return res.json(); });
     };
     return PageService;
