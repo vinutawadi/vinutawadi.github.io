@@ -21,7 +21,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "\n.p\n{\n    position: absolute;\n    top:130px;\n}", ""]);
+exports.push([module.i, "\n.p\n{  color:red;\n    position: absolute;\n    top:130px;\n}\n\n    .blend\n{\n        width:782px;\n        height:540px;\n        background: url(" + __webpack_require__("../../../../../src/app/about/hungry.jpg") + ") no-repeat center center;\n}\n", ""]);
 
 // exports
 
@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/about/about.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p class=\"p\">\n  About First page!\n</p>\n"
+module.exports = "<p class=\"p\">\n  About First page!\n</p>\n<div class=\"blend\"></div>\n"
 
 /***/ }),
 
@@ -71,6 +71,13 @@ AboutComponent = __decorate([
 ], AboutComponent);
 
 //# sourceMappingURL=about.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/about/hungry.jpg":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "hungry.f6a540481179149c0de3.jpg";
 
 /***/ }),
 
@@ -243,7 +250,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/contact/contact.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"p\">\n<p>\n  contact works!\n</p>\n"
+module.exports = "\n<p class=\"p\">\n  contact works!\n</p>\n"
 
 /***/ }),
 
@@ -352,7 +359,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "body{\n  \n\n\t\n\tmargin: 0 ;\n\tpadding: 0;\n\t\n}\n\n\n\n.navbar-brand\n {      font-size:20px;\n     margin-bottom:20px;\n    border-radius:50px;\n}\n.navbar-nav\n\n{\ncolor:red !important;\n}\n\n\n.container\n{\n    background-color:#4FD5C3;\n    width:350px;\n    height:434px;\n  \n\n  }\n.p\n{\n    margin-bottom: 8px;\n\n}\n.form-control\n{\n    margin-bottom:18px;\n}\n\n.form-control ng-untouched ng-pristine ng-invalid\n{\n     margin: 5px;\n  padding: 10px;\n  width: 200px;\n  height: 34px;\n  color: #404040;\n  background: #ffffff;\n  border: 1px solid;\n  border-color: #c4c4c4 #d1d1d1 #d4d4d4;\n  border-radius: 2px;\n  outline: 5px solid #eff4f7;\n  -moz-outline-radius: 3px;\n  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);\n}\n\n\n.alert\n{\n    \n   margin-top:-28px\n}\n\n.forget\n{\n    \n    margin:20px 97px 45px 0px;\n}\n\n.helper\n{\n    \n}\n.p1\n{  color:red;\n    margin-top:-28px;\n}\n.profile-img-card\n{\n    width: 96px;\n    height: 96px;\n    margin: 0 auto 10px;\n    display: block;\n    border-radius: 50%;\n}\n\n\n.login {\n  background-color: #E17A35;\n    padding: 18px 53px 0px 0px;\n    width: 350px;\n    margin-left:-15px;\n}\n.h1{\nfloat:left;\n\n}", ""]);
+exports.push([module.i, "body{\n  \n  background-image: linear-gradient(to right, black 0%, white 100%);\n      height:678px;\n\tmargin: 0 ;\n\tpadding: 0;\n\t\n}\n\n\n\n.navbar-brand\n {      font-size:20px;\n     margin-bottom:20px;\n    border-radius:50px;\n}\n.navbar-nav\n\n{\ncolor:red !important;\n}\n\n\n.container\n\n{  background-blend-mode: color-dodge;\n     background-blend-mode: overlay;\n\n      background-color: #b2b2b2;\n  background-color: rgba(0, 0, 0, .3);\n     border-radius: 30px;\n    width:400px;\n    height:430px;\n  \n\n  }\n.p\n{\n    margin-bottom: 8px;\n\n}\n.form-control\n{\n    margin-bottom:18px;\n}\n\n.form-control ng-untouched ng-pristine ng-invalid\n{\n     margin: 5px;\n  padding: 10px;\n  width: 300px;\n  height: 34px;\n  color: #404040;\n  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);\n}\n\n\n.alert\n{\n    color:pink;\n   margin-top:-34px;\n   margin-bottom:2px;\n}\n\n.forget\n{\n    \n    margin:20px 97px 45px 0px;\n}\n\n\n.p1\n{  color:red;\n    margin-top:-28px;\n}\n.profile-img-card\n{\n    width: 96px;\n    height: 96px;\n    margin: 0 auto 10px;\n    display: block;\n    border-radius: 50%;\n}\n\n\n.login {\n\n    border-radius: 10px;\n  background-color: #293f50;\n    padding: 18px 53px 0px 0px;\n    width: 400px;\n    margin-left:-15px;\n}\n.h1{\n    \nfloat:left;\n\n}\n\n.alert1\n{\n    color:pink;\n   margin-top:-12px;\n   margin-bottom:2px;\n}\n\n.btn-primary\n{\n    margin-left: 71px;\n     border-radius: 16px;\n}", ""]);
 
 // exports
 
@@ -365,7 +372,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/page/page.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<body >\n  <header> \n  \n    <nav class=\"navbar navbar-inverse\">\n      <div class=\"container-fluid\">\n        <div class=\"navbar-header\">\n          <a routerLink=\" /\" class=\"navbar-brand\">My Routing Angular2 App</a>\n        </div>\n        <ul class=\"nav navbar-nav\">\n          <li><a routerLink=\"/home\" >Home</a></li>\n          <li><a routerLink=\"/about\">About</a></li>\n          <li><a routetLink=\"/contact\">Contact</a></li>\n        </ul>\n      </div>\n      </nav>\n  </header> \n              <div class=\"container\">\n<div class=\"login\">\n    \n                  <h1> Login Form</h1>\n</div>\n              <form class=\"form\" #form=\"ngForm\" (ngSubmit)=\"submit(form)\">\n                  <img id=\"profile-img\" class=\"profile-img-card\" src=\"//ssl.gstatic.com/accounts/ui/avatar_2x.png\">\n\n              <div >\n                <label class=\"p\" for =\"email\">EMAIL</label>\n                <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\" required [(ngModel)]=\"form.email\" #email=\"ngModel\" pattern=\"^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$\" \n#email=\"ngModel\"> \n   <div class=\"alert \" [hidden]=\"!email.hasError('pattern')\" >Email format should be \n      <small class=\"form-block__error-message\">joe@abc.com</small>\n   </div>\n              <div *ngIf=\"email.errors && (email.dirty || email.touched)\" ></div>\n                </div>\n            <div>\n\n\n\n               <label for =\"password\">PASSWORD</label>\n                <input type=\"password\" class=\"form-control\" id=\"password\" name=\"password\" required [(ngModel)]=\"form.password\" #password=\"ngModel\" pattern=\"((?=.*\\d)(?=.*[a-zA-Z]).{4,10})\" minlength=\"4\" maxlength=\"20\" #password=\"ngModel\" required=\"required\" >\n          <div *ngIf=\"password.errors&& (password.dirty && password.touched)\" class=\"alert\" ></div>\n          \n          <div [hidden]=\"!password.hasError('minlength')\" class=\"p1\" >\n            Password must contain at least 4 digit.\n          </div>\n    \n                \n              <a href=\"#\" class=\"forget \">\n                Forget Password?\n                </a>\n               <button type=\"submit\"  class=\"btn btn-primary\" [disabled]=\"!form.valid\">submit</button>\n                </div>\n                </form>\n                <div class=\"clearfix mobile has-sms\">\n               <p class=\"helper\">\n               New to login?\n              <a id=\"login-signup-link\" href=\"https://github.com/signup\">Sign up now »</a>\n    </p>\n                </div>\n  </div>\n\n  </body>"
+module.exports = "<body >\n  <header> \n  \n    <nav class=\"navbar navbar-inverse\">\n      <div class=\"container-fluid\">\n        <div class=\"navbar-header\">\n          <a routerLink=\" /\" class=\"navbar-brand\">My Routing Angular2 App</a>\n        </div>\n        <ul class=\"nav navbar-nav\">\n          <li><a routerLink=\"/home\" >Home</a></li>\n          <li><a routerLink=\"/about\">About</a></li>\n          <li><a routerLink=\"/contact\">Contact</a></li>\n        </ul>\n      </div>\n      </nav>\n  </header> \n              <div class=\"container\">\n                <div class=\"login\">\n                     \n                  <h1> Login Form</h1>\n                 </div>\n              <form class=\"form\" #form=\"ngForm\" (ngSubmit)=\"submit(form)\">\n              <img id=\"profile-img\" class=\"profile-img-card\" src=\"//ssl.gstatic.com/accounts/ui/avatar_2x.png\">\n\n              <div >\n                <label class=\"p\" for =\"email\">EMAIL</label>\n                <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\" required [(ngModel)]=\"form.email\" #email=\"ngModel\" pattern=\"^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$\" #email=\"ngModel\">\n                <div *ngIf=\"email.errors && (password.dirty || email.touched)\" class=\"alert \">\n                <div [hidden]=\"!email.errors.required\">\n                  Email is required\n                </div>\n                <div [hidden]=\"!email.errors.pattern\">      \n            <small class=\"form-block__error-message\"> Email format should be joe@abc.com</small></div>\n               </div>\n              </div>\n             <div>\n\n\n              <label for=\"password\">PASSWORD</label>\n              <input type=\"password\" class=\"form-control\" id=\"password\" name=\"password\" required [(ngModel)]=\"form.password\" #password=\"ngModel\" >\n                      \n           <div *ngIf=\"password.errors && (password.dirty || password.touched)\"\n             class=\"alert1 \">\n            <div [hidden]=\"!password.errors.required\">\n             password is required\n            </div>\n            \n          </div>\n\n\n\n              <a href=\"#\" class=\"forget \">\n                Forget Password?\n                </a>\n               <button type=\"submit\"  class=\"btn btn-primary\" [disabled]=\"!form.form.valid\">submit</button>\n                </div>\n                </form>\n                <div class=\"clearfix mobile has-sms\">\n               <p class=\"helper\">\n               New to login?\n              <a id=\"login-signup-link\" href=\"https://github.com/signup\">Sign up now »</a>\n    </p>\n                </div>\n  </div>\n\n  </body>"
 
 /***/ }),
 
@@ -401,13 +408,13 @@ var PageComponent = (function () {
     }
     PageComponent.prototype.ngOnInit = function () {
     };
-    PageComponent.prototype.submit = function (formValues) {
+    PageComponent.prototype.submit = function (formValue) {
         var _this = this;
-        console.log(formValues.value);
+        console.log(formValue.value);
         this.PageService.registration()
             .subscribe(function (response) {
             console.log(response);
-            if (response[0].email === formValues.value.email && response[0].password === formValues.value.password) {
+            if (response[0].email === formValue.value.email && response[0].password === formValue.value.password) {
                 _this.router.navigate(['/home']);
                 _this.toasterService.pop('success', 'Args Title', 'Args Body');
             }
