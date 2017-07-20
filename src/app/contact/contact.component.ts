@@ -1,9 +1,9 @@
 import { Component, OnInit ,ViewContainerRef} from '@angular/core';
-import { ContactService } from './contact.service';
 import {Router} from "@angular/router";
 import {ToasterModule, ToasterService} from 'angular2-toaster';
 import { NG_VALIDATORS,Validator,
          Validators,AbstractControl,ValidatorFn } from '@angular/forms';
+import { ContactService } from './contact.service';
 
 @Component({
   selector: 'contact-page',
