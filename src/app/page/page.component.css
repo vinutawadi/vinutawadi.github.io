@@ -1,7 +1,12 @@
 body{
-    box-sizing: 0px;
-    margin: 0px;
+  
+  background-image: linear-gradient(to right, black 0%, white 100%);
+      height:678px;
+	margin: 0 ;
+	padding: 0;
+	
 }
+
 
 
 .navbar-brand
@@ -17,8 +22,15 @@ color:red !important;
 
 
 .container
-{
-    width:300px;
+
+{  background-blend-mode: color-dodge;
+     background-blend-mode: overlay;
+
+      background-color: #b2b2b2;
+  background-color: rgba(0, 0, 0, .3);
+     border-radius: 30px;
+    width:400px;
+    height:430px;
   
 
   }
@@ -34,10 +46,70 @@ color:red !important;
 
 .form-control ng-untouched ng-pristine ng-invalid
 {
-    margin-bottom: 10px;
+     margin: 5px;
+  padding: 10px;
+  width: 300px;
+  height: 34px;
+  color: #404040;
+ 
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 
+.alert
+{
+    color:pink;
+   margin-top:-34px;
+   margin-bottom:2px;
+}
+
+.forget
+{
+    
+    margin:20px 97px 45px 0px;
+}
 
 
+.p1
+{  color:red;
+    margin-top:-28px;
+}
+.profile-img-card
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
 
+
+.login {
+
+    border-radius: 10px;
+  background-color: #293f50;
+    padding: 18px 53px 0px 0px;
+    width: 400px;
+    margin-left:-15px;
+}
+.h1{
+    
+float:left;
+
+}
+
+.alert1
+{
+    color:pink;
+   margin-top:-12px;
+   margin-bottom:2px;
+}
+
+.btn-primary
+{
+    margin-left: 71px;
+     border-radius: 16px;
+}

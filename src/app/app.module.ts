@@ -10,6 +10,9 @@ import { ContactComponent } from './contact/contact.component';
 import {ToasterModule, ToasterService} from 'angular2-toaster';
 import { HttpModule } from '@angular/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { EqualValidator } from './contact/password.match.directive';
+
+import {ContactService} from './contact/contact.service'
 
 
 @NgModule({
@@ -18,7 +21,9 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     PageComponent,
     AboutComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+        EqualValidator
+
 
     ],
   imports: [
@@ -30,7 +35,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     HttpModule
     
   ],
-  providers: [],
+  providers: [ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

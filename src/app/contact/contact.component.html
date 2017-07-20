@@ -1,4 +1,136 @@
-<div class="p">
-<p>
-  contact works!
-</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+	<title>Admin</title>
+</head>
+
+<body>
+
+       
+	<div class="container">
+		<div class="row main">
+			<div class="main-login main-center">
+				<h5>Sign up </h5>
+				<form class="form" #formSign="ngForm" (ngSubmit)="submit(formSign)">
+
+             
+
+					<div class="form-group">
+
+						<label for="name" class="cols-sm-2 control-label">Your Name</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+								<input type="text" class="form-control" required [(ngModel)]="formSign.name" name="name" id="name" minlength="3" maxlength="15"
+								 #name="ngModel" placeholder="Enter your Name" />
+
+							</div>
+							<div *ngIf="name.errors && (name.dirty || name.touched)">
+								<div [hidden]="!name.errors.required">
+									Name is required
+								</div>
+								<div [hidden]="!name.errors.minlength">
+									Name must be at least 3 characters long.
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="email" class="cols-sm-2 control-label">Your Email</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+								<input type="text" class="form-control" name="email" id="email" [(ngModel)]="formSign.email" placeholder="Enter your Email"
+								 required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" #email="ngModel" />
+
+							</div>
+							<div *ngIf="email.errors && (email.dirty || email.touched)">
+								<div [hidden]="!email.errors.required">
+									Email is required.
+								</div>
+								<div [hidden]="!email.errors.pattern">
+									Email must be in the form of abc@xyz.com
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="phone" class="cols-sm-2 control-label">Phone Number</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+								<input type="text" class="form-control" name="phone" id="phone" placeholder="Enter your PhoneNumber" maxlength="10" minlength="10"
+								 pattern="[0-9]*" [(ngModel)]="formSign.phone" #phone="ngModel" required />
+
+							</div>
+							<div *ngIf="phone.errors && (phone.dirty || phone.touched)">
+
+								<div [hidden]="!phone.errors.required">
+									Phone no.is required.
+								</div>
+								<div [hidden]="!phone.errors.pattern">
+									Mobile number should be only numbers
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+						<div class="form-group">
+							<label for="password" class="cols-sm-2 control-label">Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                 <input  placeholder="enter your Password" type="password" class="form-control" id="password" name="password"   pattern="((?=.*\d)(?=.*[a-zA-Z]).{4,15})" minlength="4" maxlength="15"  [(ngModel)]="formSign.password"  #password="ngModel" required />
+					                                              </div>
+
+								 <div *ngIf="password.errors && (password.dirty || password.touched)" >
+                                <div [hidden]="!password.errors.required" >
+                                Password is required.
+                                  </div>
+                             <div [hidden]="!password.errors.pattern" >
+                                 Password must contain at least one alphabet and 1 digit
+                                 </div>      
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                               
+                                   <input  placeholder="Re-password" type="password" name="confirm" id="confirm" class="form-control"  [(ngModel)]="formSign.confirm"  validateEqual="password" #confirm="ngModel" required>
+                                      </div>
+									        <div *ngIf="confirm.errors && (confirm.dirty || confirm.valid)" >  
+
+                                <div *ngIf="confirm.valid && confirm.pristine "  >  
+                              Password mismatch
+                                   </div>
+                                  </div>   
+								</div>
+						</div>
+
+					<div class="form-group ">
+						<button type="submit" id="submit" class="btn btn-primary btn-lg btn-block login-button" [disabled]="!formSign.form.valid" >Sign Up</button>
+
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

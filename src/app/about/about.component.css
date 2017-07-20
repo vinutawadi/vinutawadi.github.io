@@ -1,6 +1,13 @@
 
 .p
-{
+{  color:red;
     position: absolute;
     top:130px;
+}
+
+    .blend
+{
+        width:782px;
+        height:540px;
+        background: url("./hungry.jpg") no-repeat center center;
 }

@@ -19,27 +19,27 @@ export class PageComponent  {
 
 
 constructor(    
-  private toastr: ToasterModule,
+      private toastr: ToasterModule,
       private toasterService: ToasterService,
-
-    private vcr: ViewContainerRef,
+     private vcr: ViewContainerRef,
   private router: Router,    
 private PageService: PageService  ) { }
  
 
 ngOnInit() { 
-
  } 
 
-submit(formValues) {
-  console.log(formValues.value);
+
+ 
+
+submit(formValue) {
+  console.log(formValue.value);
   this.PageService.registration()
     .subscribe(response => {
       console.log(response)
-            if(response[0].email === formValues.value.email && response[0].password === formValues.value.password){
+            if(response[0].email === formValue.value.email && response[0].password === formValue.value.password){
                    this.router.navigate(['/home']);
                      this.toasterService.pop('success', 'Args Title', 'Args Body');
-
             }else{
               this.toasterService.pop('error','Args Title', 'Args Body');
                        
@@ -51,6 +51,8 @@ submit(formValues) {
     }
     )
 }
+
+
 
 }
 
