@@ -282,7 +282,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var ContactComponent = (function () {
-    function ContactComponent(router, toastr, toasterService, contactService) {
+    function ContactComponent(vcr, router, toastr, toasterService, contactService) {
+        this.vcr = vcr;
         this.router = router;
         this.toastr = toastr;
         this.toasterService = toasterService;
@@ -315,10 +316,10 @@ ContactComponent = __decorate([
         styles: [__webpack_require__("../../../../../src/app/contact/contact.component.css")],
         providers: [__WEBPACK_IMPORTED_MODULE_1__contact_service__["a" /* ContactService */]]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3_angular2_toaster__["a" /* ToasterModule */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_angular2_toaster__["a" /* ToasterModule */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3_angular2_toaster__["b" /* ToasterService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_angular2_toaster__["b" /* ToasterService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1__contact_service__["a" /* ContactService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__contact_service__["a" /* ContactService */]) === "function" && _d || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* ViewContainerRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* ViewContainerRef */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3_angular2_toaster__["a" /* ToasterModule */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_angular2_toaster__["a" /* ToasterModule */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3_angular2_toaster__["b" /* ToasterService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_angular2_toaster__["b" /* ToasterService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1__contact_service__["a" /* ContactService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__contact_service__["a" /* ContactService */]) === "function" && _e || Object])
 ], ContactComponent);
 
-var _a, _b, _c, _d;
+var _a, _b, _c, _d, _e;
 //# sourceMappingURL=contact.component.js.map
 
 /***/ }),
