@@ -113,7 +113,7 @@
                                       </div>
 									        <div *ngIf="confirm.errors && (confirm.dirty || confirm.valid)" >  
 
-                                <div *ngIf="confirm.valid && confirm.pristine "  >  
+                                <div [hidden]="confirm.valid && confirm.pristine "  >  
                               Password mismatch
                                    </div>
                                   </div>   
