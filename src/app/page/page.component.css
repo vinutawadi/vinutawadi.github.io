@@ -42,7 +42,7 @@ color:red !important;
 .p
 {      color:  white;
        margin-left:400px;
-    margin-bottom: 8px;
+    margin-bottom: -8px;
 
 }
  
@@ -54,17 +54,30 @@ color:red !important;
     background-image: none;
     color: rgb(0, 0, 0);
     background-color: #fff !important;
-    border-radius: 0px 3px 3px 0px;
+    border-radius: 8px 9px 12px 10px;
     color: #000;
     margin-bottom: 1em;
     padding: 0 16px;
     width: 330px;
 }
+.fa-user{
+        font-size: 27px;
+    
+}
+
+.fa-lock{
+    font-size:27px;
+}
 
 
-
-
-
+.form-block__error-message
+{
+    padding: 27px 19px 6px 14px;
+       margin-left: 190px;
+    color:pink;
+   margin-top:-34px;
+   margin-bottom:2px;
+}
 
 .alert
 

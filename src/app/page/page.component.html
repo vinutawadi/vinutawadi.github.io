@@ -1,9 +1,12 @@
+
+
 <body>
   <header>
 
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
-        <div class="navbar-header">
+        <div cla
+        ss="navbar-header">
           <a routerLink=" /" class="navbar-brand">My Routing Angular2 App</a>
         </div>
         <ul class="nav navbar-nav">
@@ -27,8 +30,8 @@
          <div *ngIf="forgotSuccess" class="form-success">{{forgotSuccessMessage}}</div>
        <div *ngIf="forgotFail" class="form-fail">{{forgotFailMessage}}</div>
         <div>
-          <label class="p" for="email">EMAIL</label>
-          <p><i class="fa fa-user-user" aria-hidden="true"></i></p>
+          <label class="p" for="email">EMAIL</label> 
+          <span class="fa fa-user fa" aria-hidden="true"></span>
           <input type="email" class="form-control" id="email" name="email" required [(ngModel)]="form.email" #email="ngModel" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
             #email="ngModel">
 
@@ -44,6 +47,8 @@
         
 
           <label class="p" for="password">PASSWORD</label>
+                    <span class="fa fa-lock fa" aria-hidden="true"></span>
+
           <input type="password" class="form-control" id="password" name="password" required [(ngModel)]="form.password" #password="ngModel">
 
           <div  *ngIf="password.errors && (password.dirty || password.touched)" class="alert1 ">
