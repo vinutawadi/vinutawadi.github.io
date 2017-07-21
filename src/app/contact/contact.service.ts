@@ -6,7 +6,7 @@ import 'rxjs/add/operator/map';
 export class ContactService {  
     constructor(private http: Http){}    
     registration(){       
-       return this.http.get("assets/user/user-details.json")
+       return this.http.get("assets/user/user-details.json",)
               
         .map(res => res.json());   
      }     

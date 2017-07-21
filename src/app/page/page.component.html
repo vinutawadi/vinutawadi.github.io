@@ -1,66 +1,73 @@
-<body >
-  <header> 
-  
+<body>
+  <header>
+
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
           <a routerLink=" /" class="navbar-brand">My Routing Angular2 App</a>
         </div>
         <ul class="nav navbar-nav">
-          <li><a routerLink="/home" >Home</a></li>
+          <li><a routerLink="/home">Home</a></li>
           <li><a routerLink="/about">About</a></li>
           <li><a routerLink="/contact">Contact</a></li>
         </ul>
       </div>
-      </nav>
-  </header> 
-              <div class="container">
-                <div class="login">
-                     
-                  <h1> Login Form</h1>
-                 </div>
-              <form class="form" #form="ngForm" (ngSubmit)="submit(form)">
-              <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png">
-
-              <div >
-                <label class="p" for ="email">EMAIL</label>
-                <input type="email" class="form-control" id="email" name="email" required [(ngModel)]="form.email" #email="ngModel" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" #email="ngModel">
-                <div *ngIf="email.errors && (password.dirty || email.touched)" class="alert ">
-                <div [hidden]="!email.errors.required">
-                  Email is required
-                </div>
-                <div [hidden]="!email.errors.pattern">      
-            <small class="form-block__error-message"> Email format should be joe@abc.com</small></div>
-               </div>
-              </div>
-             <div>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="login">
+      <div id="p2">
+        <h1 class="h1"> Login Form</h1>
+      </div>
+      		
 
 
-              <label for="password">PASSWORD</label>
-              <input type="password" class="form-control" id="password" name="password" required [(ngModel)]="form.password" #password="ngModel" >
-                      
-           <div *ngIf="password.errors && (password.dirty || password.touched)"
-             class="alert1 ">
-            <div [hidden]="!password.errors.required">
-             password is required
+      <form class="form" #form="ngForm" (ngSubmit)="submit(form)">
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png">
+
+        <div>
+          <label class="p" for="email">EMAIL</label>
+          <p><i class="fa fa-user-user" aria-hidden="true"></i></p>
+          <input type="email" class="form-control" id="email" name="email" required [(ngModel)]="form.email" #email="ngModel" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+            #email="ngModel">
+
+          <div *ngIf="email.errors && (password.dirty || email.touched)" class="alert ">
+            <div [hidden]="!email.errors.required">
+              Email is required
             </div>
-            
+            <div [hidden]="!email.errors.pattern">
+              <small class="form-block__error-message"> Email format should be joe@abc.com</small></div>
           </div>
+        </div>
+        <div>
+        
+
+          <label class="p" for="password">PASSWORD</label>
+          <input type="password" class="form-control" id="password" name="password" required [(ngModel)]="form.password" #password="ngModel">
+
+          <div *ngIf="password.errors && (password.dirty || password.touched)" class="alert1 ">
+            <div [hidden]="!password.errors.required">
+              password is required
+            </div>
+
+          </div>
+         
 
 
+          <button type="submit" class="btn btn-primary" [disabled]="!form.form.valid">submit</button>
+        </div>
+      </form>
+      <div class="clearfix mobile has-sms">
 
-              <a href="#" class="forget ">
+        <p class="helper">
+          <a href="#" class="forget ">
                 Forget Password?
-                </a>
-               <button type="submit"  class="btn btn-primary" [disabled]="!form.form.valid">submit</button>
-                </div>
-                </form>
-                <div class="clearfix mobile has-sms">
-               <p class="helper">
-               New to login?
-              <a id="login-signup-link" routerLink="/contact">Sign up now »</a>
-    </p>
-                </div>
+                </a><br> New to login?
+          <a id="login-signup-link" routerLink="/contact">Sign up now »</a>
+        </p>
+      </div>
+    </div>
   </div>
 
-  </body>
+
+</body>

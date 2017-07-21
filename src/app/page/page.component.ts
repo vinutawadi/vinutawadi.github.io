@@ -1,4 +1,4 @@
-import { Component , OnInit,ViewContainerRef} from '@angular/core';
+import { Component , OnInit,ViewContainerRef,} from '@angular/core';
 import {Router} from "@angular/router";
 import { PageService } from './page.service';
 import {ToasterModule, ToasterService} from 'angular2-toaster';
@@ -9,7 +9,8 @@ import {ToasterModule, ToasterService} from 'angular2-toaster';
   selector: 'app-page',
   templateUrl: './page.component.html',
   styleUrls: ['./page.component.css'],
-  providers: [PageService]
+  providers: [PageService],
+
 })
 
 

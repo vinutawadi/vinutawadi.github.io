@@ -32,10 +32,10 @@
 
 							</div>
 							<div *ngIf="name.errors && (name.dirty || name.touched)">
-								<div [hidden]="!name.errors.required">
+								<div class="alert" [hidden]="!name.errors.required">
 									Name is required
 								</div>
-								<div [hidden]="!name.errors.minlength">
+								<div class="alert" [hidden]="!name.errors.minlength">
 									Name must be at least 3 characters long.
 								</div>
 							</div>
@@ -52,10 +52,10 @@
 
 							</div>
 							<div *ngIf="email.errors && (email.dirty || email.touched)">
-								<div [hidden]="!email.errors.required">
+								<div class="alert" [hidden]="!email.errors.required">
 									Email is required.
 								</div>
-								<div [hidden]="!email.errors.pattern">
+								<div class="alert" [hidden]="!email.errors.pattern">
 									Email must be in the form of abc@xyz.com
 								</div>
 							</div>
@@ -73,10 +73,10 @@
 							</div>
 							<div *ngIf="phone.errors && (phone.dirty || phone.touched)">
 
-								<div [hidden]="!phone.errors.required">
+								<div class="alert" [hidden]="!phone.errors.required">
 									Phone no.is required.
 								</div>
-								<div [hidden]="!phone.errors.pattern">
+								<div class="alert" [hidden]="!phone.errors.pattern">
 									Mobile number should be only numbers
 								</div>
 							</div>
@@ -93,10 +93,10 @@
 					                                              </div>
 
 								 <div *ngIf="password.errors && (password.dirty || password.touched)" >
-                                <div [hidden]="!password.errors.required" >
+                                <div class="alert" [hidden]="!password.errors.required" >
                                 Password is required.
                                   </div>
-                             <div [hidden]="!password.errors.pattern" >
+                             <div class="alert" [hidden]="!password.errors.pattern" >
                                  Password must contain at least one alphabet and 1 digit
                                  </div>      
 								</div>
@@ -113,7 +113,7 @@
                                       </div>
 									        <div *ngIf="confirm.errors && (confirm.dirty || confirm.valid)" >  
 
-                                <div [hidden]="confirm.valid && confirm.pristine "  >  
+                                <div class="alert" [hidden]="confirm.valid && confirm.pristine "  >  
                               Password mismatch
                                    </div>
                                   </div>   
