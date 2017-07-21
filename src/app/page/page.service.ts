@@ -5,8 +5,8 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class PageService {  
     constructor(private http: Http){}    
-    registration(){       
-       return this.http.get("assets/data/user-list.json")
+    login(data){       
+       return this.http.get("http://107.180.72.134/api/login",data)
               
         .map(res => res.json());   
      }     

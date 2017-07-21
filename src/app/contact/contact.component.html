@@ -19,7 +19,8 @@
 				<h5>Sign up </h5>
 				<form class="form" #formSign="ngForm" (ngSubmit)="send(formSign.value)">
 
-
+<div *ngIf="forgotSuccess" class="form-success">{{forgotSuccessMessage}}</div>
+       <div *ngIf="forgotFail" class="form-fail">{{forgotFailMessage}}</div>
 
 					<div class="form-group">
 

@@ -22,9 +22,10 @@
       		
 
 
-      <form class="form" #form="ngForm" (ngSubmit)="submit(form)">
+      <form class="form" #form="ngForm" (ngSubmit)="send(form.values)">
         <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png">
-
+         <div *ngIf="forgotSuccess" class="form-success">{{forgotSuccessMessage}}</div>
+       <div *ngIf="forgotFail" class="form-fail">{{forgotFailMessage}}</div>
         <div>
           <label class="p" for="email">EMAIL</label>
           <p><i class="fa fa-user-user" aria-hidden="true"></i></p>
