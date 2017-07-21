@@ -14,9 +14,21 @@ import { ContactService } from './contact.service';
 })
 export class ContactComponent implements OnInit {
 
+  name : string
+  email : string
+  password: string
+  rePassword:String
+  countryCode:string
+  phone: string
+  confirm: string
 
- 
+  forgotSuccessMessage: string;
+  forgotFailMessage: string;
+
+  public forgotSuccess = false;
+  public forgotFail = false;
   
+ 
 
   constructor(
     private vcr: ViewContainerRef,
@@ -32,26 +44,26 @@ export class ContactComponent implements OnInit {
   }
 
 
-submit(formValue) {
-  console.log(formValue.value);
-  this.contactService.registration()
-    .subscribe(response => {
-      console.log(response)
-            if(response[0].email == formValue.value.email && response[0].name == formValue.value.name && response[0].phone==formValue.value.phone && response[0].password == formValue.value.password && response[0].confirm==formValue.value.confirm ){
-                
-                   this.router.navigate(['/about']);
-                     this.toasterService.pop('success', 'Args Title', 'Args Body');
-            }else{
-              
-              this.toasterService.pop('error','Args Title', 'Args Body');
-              console.log('error')
-                       
-
-            } 
-
-    
-   
-    }
-    )
-}
+          send(formValues) {
+    console.log(formValues); 
+      this.contactService.registration(formValues)
+         .subscribe(
+        response => {
+            this.forgotFail = false;
+            console.log(response.message);
+            this.router.navigate(['']);
+            this.forgotSuccessMessage = response.message;
+            this.forgotSuccess = true;
+        },
+        error => {
+            this.forgotSuccess = false;
+            console.log(error);
+            alert('Please check all the fields and enter valid credentials.')
+        
+            const forgotFailErrorMessage =  JSON.parse(error._body);
+            this.forgotFailMessage = forgotFailErrorMessage.message.email;
+            this.forgotFail = true;
+        }
+    ) 
+  }
 }

@@ -31,12 +31,12 @@
           <input type="email" class="form-control" id="email" name="email" required [(ngModel)]="form.email" #email="ngModel" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
             #email="ngModel">
 
-          <div *ngIf="email.errors && (password.dirty || email.touched)" class="alert ">
-            <div [hidden]="!email.errors.required">
+          <div  *ngIf="email.errors && (password.dirty || email.touched)" class="alert ">
+            <div class="alert" [hidden]="!email.errors.required">
               Email is required
             </div>
             <div [hidden]="!email.errors.pattern">
-              <small class="form-block__error-message"> Email format should be joe@abc.com</small></div>
+              <small class="alert" class="form-block__error-message"> Email format should be joe@abc.com</small></div>
           </div>
         </div>
         <div>
@@ -45,8 +45,8 @@
           <label class="p" for="password">PASSWORD</label>
           <input type="password" class="form-control" id="password" name="password" required [(ngModel)]="form.password" #password="ngModel">
 
-          <div *ngIf="password.errors && (password.dirty || password.touched)" class="alert1 ">
-            <div [hidden]="!password.errors.required">
+          <div  *ngIf="password.errors && (password.dirty || password.touched)" class="alert1 ">
+            <div class="alert1" [hidden]="!password.errors.required">
               password is required
             </div>
 

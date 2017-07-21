@@ -107,3 +107,10 @@ span.input-group-addon i {
 	font-size: 11px;
 	text-align: center;
 }
+.alert{
+    color:red;
+    margin-top: -12px;
+    margin-bottom: -30px;
+
+    
+}
