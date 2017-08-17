@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .col-sm-3{
     /*    height: 150px;
         background-color:#01549b;*/
@@ -154,4 +155,18 @@
 body {
     margin: 0px;
     padding: 0px;
+=======
+
+.p
+{  color:red;
+    position: absolute;
+    top:130px;
+}
+
+    .blend
+{
+        width:782px;
+        height:540px;
+        background: url("./hungry.jpg") no-repeat center center;
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
 }

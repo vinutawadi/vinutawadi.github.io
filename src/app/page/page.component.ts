@@ -2,7 +2,10 @@ import { Component , OnInit,ViewContainerRef,} from '@angular/core';
 import {Router} from "@angular/router";
 import { PageService } from './page.service';
 import {ToasterModule, ToasterService} from 'angular2-toaster';
+<<<<<<< HEAD
 import {MdDialog} from '@angular/material';
+=======
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
 
 
 

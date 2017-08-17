@@ -1,0 +1,28 @@
+
+// [
+//     {   "name":"abcd",
+//         "email":"abc@gmail.com",
+//          "phone":"7123456789",
+//          "password": "abc123",
+//          "confirm":"abc123"
+
+//     },
+//     {
+//         "name":"one1",
+//         "email":"one@gmail.com",
+//          "number":"7234567891",
+//          "password": "one123",
+//          "confirm ":"one123"
+
+//     },
+
+
+//     {
+//         "name":"three",
+//         "email":"three@gmail.com",
+//          "number":"7654321899",
+//          "password": "three123",
+//          "confirm":"three123"
+
+//     }
+// ]

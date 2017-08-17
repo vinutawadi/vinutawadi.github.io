@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageComponent } from './page/page.component';
+<<<<<<< HEAD
 import { FontComponent } from './font/font.component';
 import { IoniconsComponent } from './ionicons/ionicons.component';
 import { MaterialComponent } from './material/material.component';
@@ -103,3 +104,13 @@ const appRoutes: Routes = [
 export const appRouting:ModuleWithProviders= RouterModule.forRoot(appRoutes);
 
    
+=======
+
+const appRoutes: Routes = [
+  { path:'', component:PageComponent},
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'contact', component: ContactComponent }
+];
+export const appRouting:ModuleWithProviders= RouterModule.forRoot(appRoutes);
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7

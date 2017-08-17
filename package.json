@@ -13,17 +13,24 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.0.0",
+<<<<<<< HEAD
     "@angular/cdk": "github:angular/cdk-builds",
+=======
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
     "@angular/forms": "^4.0.0",
     "@angular/http": "^4.0.0",
+<<<<<<< HEAD
     "@angular/material": "github:angular/material2-builds",
+=======
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "angular2-easy-forms": "^0.3.0",
+<<<<<<< HEAD
     "angularic-ionicon": "^1.1.1",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
@@ -38,6 +45,13 @@
     "ngx-dropdown": "0.0.22",
     "rxjs": "^5.1.0",
     "simple-line-icons": "^2.4.1",
+=======
+    "core-js": "^2.4.1",
+    "font-awesome": "^4.7.0",
+    "ng2-toastr": "^4.1.2",
+    "ngx-bootstrap": "^1.7.1",
+    "rxjs": "^5.1.0",
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
     "zone.js": "^0.8.4"
   },
   "devDependencies": {

@@ -3,6 +3,7 @@
 {
     position: absolute;
     top:110px;
+<<<<<<< HEAD
 }.closed{
   
   transition: all 0.3s ease-in-out;  
@@ -30,4 +31,6 @@ margin-left:-300px;
 .second{
     transition: all 0.3s ease-in-out;
     
+=======
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
 }

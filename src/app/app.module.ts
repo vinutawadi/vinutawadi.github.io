@@ -11,6 +11,7 @@ import {ToasterModule, ToasterService} from 'angular2-toaster';
 import { HttpModule } from '@angular/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { EqualValidator } from './contact/password.match.directive';
+<<<<<<< HEAD
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import { MaterialModule, MdIconRegistry } from "@angular/material";
@@ -41,6 +42,10 @@ import { Ng2DropdownModule } from 'ng2-material-dropdown';
 // import { TimeWidgetsComponent } from './demo/widgets/time-widgets/time-widgets.component';
 // import { UserWidgetsComponent } from './demo/widgets/user-widgets/user-widgets.component';
 // import { WidgetsComponent } from './demo/widgets/widgets/widgets.component';
+=======
+
+import {ContactService} from './contact/contact.service'
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
 
 
 @NgModule({
@@ -50,6 +55,7 @@ import { Ng2DropdownModule } from 'ng2-material-dropdown';
     AboutComponent,
     HomeComponent,
     ContactComponent,
+<<<<<<< HEAD
     EqualValidator,
     FontComponent,
     IoniconsComponent,
@@ -79,11 +85,19 @@ import { Ng2DropdownModule } from 'ng2-material-dropdown';
   imports: [
     SidebarModule.forRoot(),
     MaterialModule,
+=======
+        EqualValidator
+
+
+    ],
+  imports: [
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
     BrowserAnimationsModule,
     BrowserModule,
     FormsModule,
     appRouting,
     ToasterModule,
+<<<<<<< HEAD
     HttpModule,
      MdDialogModule,
         MdButtonModule,
@@ -92,6 +106,10 @@ import { Ng2DropdownModule } from 'ng2-material-dropdown';
   ],
     entryComponents: [
     DialogExampleComponent
+=======
+    HttpModule
+    
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
   ],
   providers: [ContactService],
   bootstrap: [AppComponent]

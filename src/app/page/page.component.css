@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 
 .container
 {
+=======
+body{
+  
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
       
        background: #0264d6; /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover,  #0264d6 1%, #1c2b5a 100%); /* FF3.6+ */
@@ -12,18 +17,34 @@ background: radial-gradient(ellipse at center,  #0264d6 1%,#1c2b5a 100%); /* W3C
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0264d6', endColorstr='#1c2b5a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 height:calc(100vh);
 width:100%;
+<<<<<<< HEAD
 }
 
+=======
+    
+  margin: 0;
+
+      height:678px;
+	margin: 0 ;
+	padding: 0;
+	
+}
+
+
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
 .navbar-brand
  {      font-size:20px;
      margin-bottom:20px;
     border-radius:50px;
 }
+<<<<<<< HEAD
 .float
 {
     padding-left:300px;
 
 }
+=======
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
 .navbar-nav
 
 {
@@ -33,9 +54,13 @@ color:red !important;
 
 .h1
 { color:white;
+<<<<<<< HEAD
     font-size:30px;
    padding:10px 10px 10px 10px;
    margin:41px 10px 10px 448px ;
+=======
+    padding-left:450px;
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
 }
 
   
@@ -103,7 +128,11 @@ color:red !important;
 {
     width: 96px;
     height: 96px;
+<<<<<<< HEAD
     margin: 0 500px 19px;
+=======
+    margin: 0 auto 10px;
+>>>>>>> 77b17ff31a19b44846ce98467ef7f3f622977ca7
     display: block;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
