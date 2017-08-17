@@ -1,38 +1,78 @@
-<body >
-  <header> 
+<body><header>
   
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a routerLink=" /" class="navbar-brand">My Routing Angular2 App</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li><a routerLink="/home" >Home</a></li>
-          <li><a routerLink="/about">About</a></li>
-          <li><a routetLink="/contact">Contact</a></li>
+        <div class="float">
+          
+            <ul class="nav navbar-nav">
+            <li><a routerLink="/dialogexample">Dialog-Example</a></li>
+            <li><a routerLink="/home">Home</a></li>
+            <li><a routerLink="/about">About</a></li>
+            <li><a routerLink="/contact">Contact</a></li>
+            <li><a routerLink="/font">Font Awesome</a></li>
+            <li><a routerLink="/ionicons">Ionicons</a></li>
+            <li><a routerLink="/material">Material design ionic font</a></li>
         </ul>
-      </div>
-      </nav>
-  </header> 
-  
-    
-    
-              <form class="form" #form="ngForm" (ngSubmit)="submit(form)">
-            <div class="container">
-              <h1> Login Form</h1>
-              <div>
-                <label for ="email">EMAIL</label>
-                <input type="email" class="form-control" id="email" name="email" required [(ngModel)]="form.email" #email="ngModel">
-               <div *ngIf="email.errors && (email.dirty || email.touched)" class="alert alert-danger"></div>
-                </div>
-            <div>
-               <label for ="password">PASSWORD</label>
-                <input type="password" class="form-control" id="password" name="password" required [(ngModel)]="form.password" #password="ngModel">
-                <div *ngIf="password.errors && (password.dirty || password.touched)" class="alert alert-danger"></div>
-                                </div>
-               <button type="submit"  class="btn btn-primary" [disabled]="email.invalid">submit</button>
-               
-                </div>
-                </form>
+        </div>
+    </header>
+ 
 
-  </body>
+
+  <div class="container">
+    <div class="login">
+      <div >
+        <h1 class="h1"> Login Form</h1>
+      </div>
+      		
+
+
+      <form class="form" #form="ngForm" (ngSubmit)="send(form.values)">
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png">
+         <div *ngIf="forgotSuccess" class="form-success">{{forgotSuccessMessage}}</div>
+       <div *ngIf="forgotFail" class="form-fail">{{forgotFailMessage}}</div>
+        <div>
+          <label class="p" for="email">EMAIL</label> 
+          <span class="fa fa-user fa" aria-hidden="true"></span>
+          <input type="email" class="form-control" id="email" name="email" required [(ngModel)]="form.email" #email="ngModel" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+            #email="ngModel">
+
+          <div  *ngIf="email.errors && (password.dirty || email.touched)" class="alert ">
+            <div class="alert" [hidden]="!email.errors.required">
+              Email is required
+            </div>
+            <div [hidden]="!email.errors.pattern">
+              <small  class="form-block__error-message"> Email format should be joe@abc.com</small></div>
+          </div>
+        </div>
+        <div>
+        
+
+          <label class="p" for="password">PASSWORD</label>
+                    <span class="fa fa-lock fa" aria-hidden="true"></span>
+
+          <input type="password" class="form-control" id="password" name="password" required [(ngModel)]="form.password" #password="ngModel">
+
+          <div  *ngIf="password.errors && (password.dirty || password.touched)" class="alert1 ">
+            <div class="alert1" [hidden]="!password.errors.required">
+              password is required
+            </div>
+
+          </div>
+         
+
+
+          <button type="submit" class="btn btn-primary" [disabled]="!form.form.valid">submit</button>
+        </div>
+      </form>
+      <div class="clearfix mobile has-sms">
+
+        <p class="helper">
+          <a href="#" class="forget ">
+                Forget Password?
+                </a><br> New to login?
+          <a id="login-signup-link" routerLink="/contact">Sign up now »</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+<body>

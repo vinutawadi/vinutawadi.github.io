@@ -3,10 +3,10 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 @Injectable()
-export class PageService {  
+export class ContactService {  
     constructor(private http: Http){}    
-    login(data){       
-       return this.http.get("http://107.180.72.134/api/login",data)
+    registration(data){       
+       return this.http.post("http://107.180.72.134/api/customers",data)
               
         .map(res => res.json());   
      }     

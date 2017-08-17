@@ -1,7 +1,8 @@
-import { Component , OnInit,ViewContainerRef} from '@angular/core';
+import { Component , OnInit,ViewContainerRef,} from '@angular/core';
 import {Router} from "@angular/router";
 import { PageService } from './page.service';
 import {ToasterModule, ToasterService} from 'angular2-toaster';
+import {MdDialog} from '@angular/material';
 
 
 
@@ -9,48 +10,62 @@ import {ToasterModule, ToasterService} from 'angular2-toaster';
   selector: 'app-page',
   templateUrl: './page.component.html',
   styleUrls: ['./page.component.css'],
-  providers: [PageService]
+  providers: [PageService],
+
 })
 
 
 
 export class PageComponent  {
-
+email : string
+  password: string
+  
+  
+  forgotSuccessMessage: string;
+  forgotFailMessage: string;
+  
+   private toastService: ToasterService;
+  public forgotSuccess = false;
+  public forgotFail = false;
+  
 
 
 constructor(    
-  private toastr: ToasterModule,
+      private toastr: ToasterModule,
       private toasterService: ToasterService,
-
-    private vcr: ViewContainerRef,
+     private vcr: ViewContainerRef,
   private router: Router,    
 private PageService: PageService  ) { }
  
 
 ngOnInit() { 
-
  } 
 
-submit(formValues) {
-  console.log(formValues.value);
-  this.PageService.registration()
-    .subscribe(response => {
-      console.log(response)
-            if(response[0].email === formValues.value.email && response[0].password === formValues.value.password){
-                   this.router.navigate(['/home']);
-                     this.toasterService.pop('success', 'Args Title', 'Args Body');
 
-            }else{
-              this.toasterService.pop('error','Args Title', 'Args Body');
-                       
+ 
+        send(formValues) {
+    console.log(formValues); 
+      this.PageService.login(formValues)
+         .subscribe(
+        response => {
+            this.forgotFail = false;
+            console.log(response.message);
+            this.router.navigate(['/home']);
+            this.forgotSuccessMessage = response.message;
+            this.forgotSuccess = true;
+        },
+        error => {
+            this.forgotSuccess = false;
+            console.log(error);
+            alert('Please check all the fields and enter valid credentials.')
+        
+            const forgotFailErrorMessage =  JSON.parse(error._body);
+            this.forgotFailMessage = forgotFailErrorMessage.message.email;
+            this.forgotFail = true;
+        }
+    ) 
+  }
 
-            } 
-
-      
-   
-    }
-    )
-}
 
 }
 

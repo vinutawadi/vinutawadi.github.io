@@ -1,0 +1,3726 @@
+[
+  {
+    "name": "3d_rotation",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "accessibility",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "accessible",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "account_balance",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "account_balance_wallet",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "account_box",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "account_circle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add_shopping_cart",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "alarm",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "alarm_add",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "alarm_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "alarm_on",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "all_out",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "android",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "announcement",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "aspect_ratio",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "assessment",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "assignment",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "assignment_ind",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "assignment_late",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "assignment_return",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "assignment_returned",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "assignment_turned_in",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "autorenew",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "backup",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "book",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "bookmark",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "bookmark_border",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "bug_report",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "build",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cached",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "camera_enhance",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "card_giftcard",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "card_membership",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "card_travel",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "change_history",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "check_circle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "chrome_reader_mode",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "class",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "code",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "compare_arrows",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "copyright",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "credit_card",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "dashboard",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "date_range",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "delete",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "delete_forever",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "description",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "dns",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "done",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "done_all",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "donut_large",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "donut_small",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "eject",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "euro_symbol",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "event",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "event_seat",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "exit_to_app",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "explore",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "extension",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "face",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "favorite",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "favorite_border",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "feedback",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "find_in_page",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "find_replace",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fingerprint",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flight_land",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flight_takeoff",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flip_to_back",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flip_to_front",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "g_translate",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "gavel",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "get_app",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "gif",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "grade",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "group_work",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "help",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "help_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "highlight_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "history",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "home",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "hourglass_empty",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "hourglass_full",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "http",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "https",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "important_devices",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "info",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "info_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "input",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "invert_colors",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "label",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "label_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "language",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "launch",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "lightbulb_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "line_style",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "line_weight",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "list",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "lock",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "lock_open",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "lock_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "loyalty",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "markunread_mailbox",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "motorcycle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "note_add",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "offline_pin",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "opacity",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "open_in_browser",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "open_in_new",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "open_with",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pageview",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pan_tool",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "payment",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "perm_camera_mic",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "perm_contact_calendar",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "perm_data_setting",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "perm_device_information",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "perm_identity",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "perm_media",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "perm_phone_msg",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "perm_scan_wifi",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pets",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "picture_in_picture",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "picture_in_picture_alt",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "play_for_work",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "polymer",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "power_settings_new",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pregnant_woman",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "print",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "query_builder",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "question_answer",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "receipt",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "record_voice_over",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "redeem",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "remove_shopping_cart",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "reorder",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "report_problem",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "restore",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "restore_page",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "room",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "rounded_corner",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "rowing",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "schedule",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "search",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_applications",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_backup_restore",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_bluetooth",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_brightness",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_cell",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_ethernet",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_input_antenna",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_input_component",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_input_composite",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_input_hdmi",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_input_svideo",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_overscan",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_phone",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_power",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_remote",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_voice",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "shop",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "shop_two",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "shopping_basket",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "shopping_cart",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "speaker_notes",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "speaker_notes_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "spellcheck",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "star_rate",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "stars",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "store",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "subject",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "supervisor_account",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "swap_horiz",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "swap_vert",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "swap_vertical_circle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "system_update_alt",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "tab",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "tab_unselected",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "theaters",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "thumb_down",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "thumb_up",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "thumbs_up_down",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "timeline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "toc",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "today",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "toll",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "touch_app",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "track_changes",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "translate",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "trending_down",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "trending_flat",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "trending_up",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "turned_in",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "turned_in_not",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "update",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "verified_user",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_agenda",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_array",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_carousel",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_column",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_day",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_headline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_list",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_module",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_quilt",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_stream",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_week",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "visibility",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "visibility_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "watch_later",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "work",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "youtube_searched_for",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "zoom_in",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "zoom_out",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add_alert",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "error",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "error_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "warning",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add_to_queue",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airplay",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "album",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "art_track",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "av_timer",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "branding_watermark",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "call_to_action",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "closed_caption",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "equalizer",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "explicit",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fast_forward",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fast_rewind",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "featured_play_list",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "featured_video",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fiber_dvr",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fiber_manual_record",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fiber_new",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fiber_pin",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fiber_smart_record",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "forward_10",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "forward_30",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "forward_5",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "games",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "hd",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "hearing",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "high_quality",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "library_add",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "library_books",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "library_music",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "loop",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mic",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mic_none",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mic_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "movie",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "music_video",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "new_releases",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "not_interested",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "note",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pause",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pause_circle_filled",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pause_circle_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "play_arrow",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "play_circle_filled",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "play_circle_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "playlist_add",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "playlist_add_check",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "playlist_play",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "queue",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "queue_music",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "queue_play_next",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "radio",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "recent_actors",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "remove_from_queue",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "repeat",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "repeat_one",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "replay",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "replay_10",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "replay_30",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "replay_5",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "shuffle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "skip_next",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "skip_previous",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "slow_motion_video",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "snooze",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sort_by_alpha",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "stop",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "subscriptions",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "subtitles",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "surround_sound",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "video_call",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "video_label",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "video_library",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "videocam",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "videocam_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "volume_down",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "volume_mute",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "volume_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "volume_up",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "web",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "web_asset",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "business",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "call",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "call_end",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "call_made",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "call_merge",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "call_missed",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "call_missed_outgoing",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "call_received",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "call_split",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "chat",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "chat_bubble",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "chat_bubble_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "clear_all",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "comment",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "contact_mail",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "contact_phone",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "contacts",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "dialer_sip",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "dialpad",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "email",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "forum",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "import_contacts",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "import_export",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "invert_colors_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "live_help",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "location_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "location_on",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mail_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "message",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "no_sim",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phone",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phonelink_erase",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phonelink_lock",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phonelink_ring",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phonelink_setup",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "portable_wifi_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "present_to_all",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "ring_volume",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "rss_feed",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "screen_share",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "speaker_phone",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "stay_current_landscape",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "stay_current_portrait",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "stay_primary_landscape",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "stay_primary_portrait",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "stop_screen_share",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "swap_calls",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "textsms",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "voicemail",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "vpn_key",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add_box",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add_circle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add_circle_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "archive",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "backspace",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "block",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "clear",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "content_copy",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "content_cut",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "content_paste",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "create",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "delete_sweep",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "drafts",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_list",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flag",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "font_download",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "forward",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "gesture",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "inbox",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "link",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "low_priority",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mail",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "markunread",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "move_to_inbox",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "next_week",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "redo",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "remove",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "remove_circle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "remove_circle_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "reply",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "reply_all",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "report",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "save",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "select_all",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "send",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sort",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "text_format",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "unarchive",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "undo",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "weekend",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "access_alarm",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "access_alarms",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "access_time",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add_alarm",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airplanemode_active",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airplanemode_inactive",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "battery_alert",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "battery_charging_full",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "battery_full",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "battery_std",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "battery_unknown",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "bluetooth",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "bluetooth_connected",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "bluetooth_disabled",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "bluetooth_searching",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_auto",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_high",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_low",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_medium",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "data_usage",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "developer_mode",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "devices",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "dvr",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "gps_fixed",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "gps_not_fixed",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "gps_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "graphic_eq",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "location_disabled",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "location_searching",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "network_cell",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "network_wifi",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "nfc",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "screen_lock_landscape",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "screen_lock_portrait",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "screen_lock_rotation",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "screen_rotation",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sd_storage",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "settings_system_daydream",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "signal_cellular_4_bar",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "signal_cellular_connected_no_internet_4_bar",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "signal_cellular_no_sim",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "signal_cellular_null",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "signal_cellular_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "signal_wifi_4_bar",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "signal_wifi_4_bar_lock",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "signal_wifi_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "storage",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "usb",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wallpaper",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "widgets",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wifi_lock",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wifi_tethering",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "attach_file",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "attach_money",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_all",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_bottom",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_clear",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_color",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_horizontal",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_inner",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_left",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_outer",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_right",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_style",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_top",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "border_vertical",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "bubble_chart",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "drag_handle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_align_center",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_align_justify",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_align_left",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_align_right",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_bold",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_clear",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_color_fill",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_color_reset",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_color_text",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_indent_decrease",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_indent_increase",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_italic",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_line_spacing",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_list_bulleted",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_list_numbered",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_paint",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_quote",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_shapes",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_size",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_strikethrough",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_textdirection_l_to_r",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_textdirection_r_to_l",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "format_underlined",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "functions",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "highlight",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "insert_chart",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "insert_comment",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "insert_drive_file",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "insert_emoticon",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "insert_invitation",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "insert_link",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "insert_photo",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "linear_scale",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "merge_type",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mode_comment",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mode_edit",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "monetization_on",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "money_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "multiline_chart",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pie_chart",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pie_chart_outlined",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "publish",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "short_text",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "show_chart",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "space_bar",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "strikethrough_s",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "text_fields",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "title",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "vertical_align_bottom",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "vertical_align_center",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "vertical_align_top",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wrap_text",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "attachment",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cloud",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cloud_circle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cloud_done",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cloud_download",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cloud_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cloud_queue",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cloud_upload",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "create_new_folder",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "file_download",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "file_upload",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "folder",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "folder_open",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "folder_shared",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cast",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cast_connected",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "computer",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "desktop_mac",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "desktop_windows",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "developer_board",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "device_hub",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "devices_other",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "dock",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "gamepad",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "headset",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "headset_mic",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard_arrow_down",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard_arrow_left",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard_arrow_right",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard_arrow_up",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard_backspace",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard_capslock",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard_hide",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard_return",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard_tab",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "keyboard_voice",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "laptop",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "laptop_chromebook",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "laptop_mac",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "laptop_windows",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "memory",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mouse",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phone_android",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phone_iphone",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phonelink",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phonelink_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "power_input",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "router",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "scanner",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "security",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sim_card",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "smartphone",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "speaker",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "speaker_group",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "tablet",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "tablet_android",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "tablet_mac",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "toys",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "tv",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "videogame_asset",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "watch",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add_a_photo",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add_to_photos",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "adjust",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "assistant",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "assistant_photo",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "audiotrack",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "blur_circular",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "blur_linear",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "blur_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "blur_on",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_1",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_2",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_3",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_4",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_5",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_6",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brightness_7",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "broken_image",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "brush",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "burst_mode",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "camera",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "camera_alt",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "camera_front",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "camera_rear",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "camera_roll",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "center_focus_strong",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "center_focus_weak",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "collections",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "collections_bookmark",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "color_lens",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "colorize",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "compare",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "control_point",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "control_point_duplicate",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_16_9",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_3_2",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_5_4",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_7_5",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_din",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_free",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_landscape",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_original",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_portrait",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_rotate",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "crop_square",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "dehaze",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "details",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "edit",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "exposure",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "exposure_neg_1",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "exposure_neg_2",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "exposure_plus_1",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "exposure_plus_2",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "exposure_zero",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_1",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_2",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_3",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_4",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_5",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_6",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_7",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_8",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_9",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_9_plus",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_b_and_w",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_center_focus",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_drama",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_frames",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_hdr",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_none",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_tilt_shift",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "filter_vinbadgee",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flare",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flash_auto",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flash_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flash_on",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flip",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "gradient",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "grain",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "grid_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "grid_on",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "hdr_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "hdr_on",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "hdr_strong",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "hdr_weak",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "healing",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "image",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "image_aspect_ratio",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "iso",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "landscape",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "leak_add",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "leak_remove",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "lens",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "linked_camera",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "looks",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "looks_3",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "looks_4",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "looks_5",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "looks_6",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "looks_one",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "looks_two",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "loupe",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "monochrome_photos",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "movie_creation",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "movie_filter",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "music_note",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "nature",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "nature_people",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "navigate_before",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "navigate_next",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "palette",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "panorama",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "panorama_fish_eye",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "panorama_horizontal",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "panorama_vertical",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "panorama_wide_angle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "photo",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "photo_album",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "photo_camera",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "photo_filter",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "photo_library",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "photo_size_select_actual",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "photo_size_select_large",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "photo_size_select_small",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "picture_as_pdf",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "portrait",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "remove_red_eye",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "rotate_90_degrees_ccw",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "rotate_left",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "rotate_right",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "slideshow",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "straighten",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "style",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "switch_camera",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "switch_video",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "badge_faces",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "texture",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "timelapse",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "timer",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "timer_10",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "timer_3",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "timer_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "tonality",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "transform",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "tune",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_comfy",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "view_compact",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "vignette",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wb_auto",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wb_cloudy",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wb_incandescent",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wb_iridescent",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wb_sunny",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "add_location",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "beenhere",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "directions",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "directions_bike",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "directions_boat",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "directions_bus",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "directions_car",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "directions_railway",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "directions_run",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "directions_subway",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "directions_transit",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "directions_walk",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "edit_location",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "ev_station",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "flight",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "hotel",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "layers",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "layers_clear",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_activity",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_airport",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_atm",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_bar",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_cafe",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_car_wash",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_convenience_store",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_dining",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_drink",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_florist",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_gas_station",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_grocery_store",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_hospital",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_hotel",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_laundry_service",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_library",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_mall",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_movies",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_offer",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_parking",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_pharmacy",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_phone",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_pizza",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_play",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_post_office",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_printshop",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_see",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_shipping",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "local_taxi",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "map",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "my_location",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "navigation",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "near_me",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "person_pin",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "person_pin_circle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pin_drop",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "place",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "rate_review",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "restaurant",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "restaurant_menu",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "satellite",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "store_mall_directory",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "streetview",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "subway",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "terrain",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "traffic",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "train",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "tram",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "transfer_within_a_station",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "zoom_out_map",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "apps",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "arrow_back",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "arrow_downward",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "arrow_drop_down",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "arrow_drop_down_circle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "arrow_drop_up",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "arrow_forward",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "arrow_upward",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cancel",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "check",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "chevron_left",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "chevron_right",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "close",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "expand_less",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "expand_more",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "first_page",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fullscreen",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fullscreen_exit",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "last_page",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "menu",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "more_horiz",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "more_vert",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "refresh",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "subdirectory_arrow_left",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "subdirectory_arrow_right",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "adb",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airline_seat_flat",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airline_seat_flat_angled",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airline_seat_individual_suite",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airline_seat_legroom_extra",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airline_seat_legroom_normal",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airline_seat_legroom_reduced",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airline_seat_recline_extra",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airline_seat_recline_normal",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "bluetooth_audio",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "confirmation_number",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "disc_full",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "do_not_disturb",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "do_not_disturb_alt",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "do_not_disturb_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "do_not_disturb_on",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "drive_eta",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "enhanced_encryption",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "event_available",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "event_busy",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "event_note",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "folder_special",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "live_tv",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mms",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "more",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "network_check",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "network_locked",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "no_encryption",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "ondemand_video",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "personal_video",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phone_bluetooth_speaker",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phone_forwarded",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phone_in_talk",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phone_locked",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phone_missed",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "phone_paused",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "power",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "priority_high",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sd_card",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sim_card_alert",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sms",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sms_failed",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sync",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sync_disabled",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sync_problem",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "system_update",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "tap_and_play",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "time_to_leave",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "vibration",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "voice_chat",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "vpn_lock",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wc",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "wifi",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "ac_unit",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "airport_shuttle",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "all_inclusive",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "beach_access",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "business_center",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "casino",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "child_care",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "child_friendly",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "fitness_center",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "free_breakfast",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "golf_course",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "hot_tub",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "kitchen",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pool",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "room_service",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "rv_hookup",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "smoke_free",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "smoking_rooms",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "spa",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "cake",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "domain",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "group",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "group_add",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "location_city",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mood",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "mood_bad",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "notifications",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "notifications_active",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "notifications_none",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "notifications_off",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "notifications_paused",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "pages",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "party_mode",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "people",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "people_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "person",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "person_add",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "person_outline",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "plus_one",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "poll",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "public",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "school",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sentiment_dissatisfied",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sentiment_neutral",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sentiment_satisfied",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sentiment_very_dissatisfied",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "sentiment_very_satisfied",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "share",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "whatshot",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "check_box",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "check_box_outline_blank",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "indeterminate_check_box",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "radio_button_checked",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "radio_button_unchecked",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "star",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "star_border",
+    "iconClass": "material-icons material-icons-3x"
+  },
+  {
+    "name": "star_half",
+    "iconClass": "material-icons material-icons-3x"
+  }
+]

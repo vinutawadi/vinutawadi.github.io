@@ -1,0 +1,23 @@
+
+<div class="container"> 
+    <div class="row">
+        <h3>Type some icon name here...</h3>
+        <i class="material-icons"></i>
+        <input type="text" class="form-control" placeholder="search icons" id="searchIcon" [(ngModel)]="searchText" name="searchIcon">
+    </div>
+    <div class="row">
+      
+        <div class="fa-icon-wpr">
+            <ul class="fa-icon-list">
+                <li class="list-icon" *ngFor="let icon of iconList | iconPipe:searchText">
+                <i [class]=" icon.iconClass"></i>
+
+                    <md-icon>{{ icon.name}}</md-icon>
+                    <span class="icon-name">{{icon.name}}</span>
+                 
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+

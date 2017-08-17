@@ -3,11 +3,11 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 @Injectable()
-export class PageService {  
+export class DialogService {  
     constructor(private http: Http){}    
-    login(data){       
-       return this.http.get("http://107.180.72.134/api/login",data)
+    demo(){       
+       return this.http.get("assets/data/dashboard-list.json")
               
         .map(res => res.json());   
-     }     
-     }
+    }     
+}

@@ -1,0 +1,72 @@
+<div class="flex">
+    <div class="sidebar-wrapper" [class.closed]="isExpanded" id="sidebar-wrapper">
+        <nav class="navbar navbar-default ex-fixed">
+            <a class="navbar-brand mr-auto" [routerLink]="['/']"> 
+            <img src="assets/image/logo.png" class="navbar-brand-logo" alt="">
+            <span class="docked">Decima</span>
+        </a>
+        </nav>
+        <div class="row folder-exp">
+            <ul class="list-group sidebar-list">
+                <a>
+                    <li class="list-group-item menu" *ngFor="let data of sideList">
+                        <i class="{{data.menu}}"></i>
+                        <i class="fa" [ngClass]="{
+                        'fa-caret-down':data.isOpen, 
+                        'fa-caret-right':!data.isOpen}" aria-hidden="true"></i>
+                        <span class="name" (click)="dropdown(data)">{{data.menu}}</span>
+                       
+                        <ul class="sublist" *ngIf="data.isOpen">
+                            <a (click)="dropdown1(list)">
+                            <li class="list-group-item menu" *ngFor="let list of data.list">
+                                <i class="{{list.menu}}"></i>
+                                <i class="fa fa-file small" aria-hidden="true"></i>
+                                <span >{{list.menu}}</span>
+                                
+                                <ul class="sublist1" *ngIf="list.Open">
+                                    <li *ngFor="let list1 of list.list1">
+                                        <span (click)="dropdown2(list1)">{{list1.menu}}</span>
+
+                                        <ul class="sublist1" *ngIf="list1.Open">
+                                            <li *ngFor="let list2 of list1.list2">
+                                                <span (click)="dropdown3(list2)">{{list2.menu}}</span>
+                                               
+                                                <ul class="sublist1" *ngIf="list2.Open">
+                                                    <li *ngFor="let list3 of list2.list3">
+                                                        <span (click)="dropdown4(list3)" >{{list3.menu}}</span>
+                                                         
+                                                         <ul class="sublist1" *ngIf="list3.Open">
+                                                         <li *ngFor="let list4 of list3.list4">
+                                                          <span>{{list4.menu}}</span>-->
+                                                           </li>
+                                                         </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            </a>
+                        </ul>
+                    </li>
+                </a>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="" [class.expanded]="isExpanded" id="wrapper">
+        <div id="custom-bootstrap-menu" class="navbar">
+            <div class="content-header" class="page-content-wrapper">
+                <div class="page-content">
+                    <h1 id="home">
+                        <a (click)="toggle($event)">
+                            <i class="fa fa-bars"></i>
+                        </a> Dashboard
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

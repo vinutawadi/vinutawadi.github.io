@@ -3,4 +3,31 @@
 {
     position: absolute;
     top:110px;
+}.closed{
+  
+  transition: all 0.3s ease-in-out;  
+}
+.expanded{
+  margin-right:300px;     
+  transition: all 0.3s ease-in-out;     
+}.open{
+margin-left:-300px;
+  
+  transition: all 0.3s ease-in-out 0s;
+  
+}
+.list-group{
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.open{
+  height:0px;
+  display:none;
+  transition: all 0.3s ease-in-out 0s;
+  
+}
+.second{
+    transition: all 0.3s ease-in-out;
+    
 }
